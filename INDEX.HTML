@@ -1,0 +1,106 @@
+<html>
+	<head>
+	<!--head se utiliza para el navegador-->
+		<title>Titulo de nuestra primera web de prueba</title>
+		<link rel="stylesheet" href="estilos.css"><!--agregar enlace css-->
+		<link rel="shortcut icon" type="image/x-icon" href="Imagenes/Logoico.jpg"><!--agrega imagen al titulo de la pagina-->
+	</head>
+	
+	<body>
+		<script.src="archivo.js"></script><!--Ejecutar codigo javascript sin ensuciar codigo html-->
+	<!--h1 se utiliza para titulares -->
+		<h1>Titulo de nuestro documento</h1>
+				
+		<p>
+			Aqui se agrega el texto que se quiere colocar en la pagina
+			asi sin nada en especial, solamente se escribe lo que se necesita
+			Si necesita dar espacio se puede usar la etiqueta br.<br/> Da el espacio bajando al renglon.
+		</p>
+		
+		<img src="Imagenes/Logo.jpg" title="Logo de Tecnitintas" /><!--Agregar una imagen-->
+		<br/>
+		<img src="Imagenes/logo.jpg" width="300" height="300" alt="Logotipo de Tecnitintas"/><!-- Agregar una imagen y darle el tamaño que se quiere-->
+		<!--Puede usar solo width o olo height y se ajusta proporcional-->
+		<!--El atributo alt le sirve para colocar el titulo de la imagen por si esta no se cargara y da posicionamiento-->
+		<!--El title se usa para darle la descripcion al colocar el mouse sobre la imagen-->
+		<br/>
+		
+		<hr/><!--esta etiqueta hr genera una linea-->
+		<a href="https://www.google.com/">Ir a google</a><!--Agregar un enlace, dentro de las comillas se coloca la URL--><br/>
+		<a target="_blank" href="https://www.google.com/">Ir a google sin cerrar la pagina</a><!--enlace sin cerrar pagina--><br/>
+		<a href="Imagenes/Logo.jpg">Ir al logo</a><!--Agregar un enlace a un archivo--><br/>
+		<a target="_blank" href="Imagenes/Logo.jpg">Ir al logo sin cerrar la pagina</a>
+		<a href="mailto:tecnitintas@gmail.com">Enviar mail</a><!--para enviar un correo--><br/>
+		<a href="mailto:tecnitintas@gmail.com" title="Enviar correo a Tecnitintas">Enviar mail</a><!--mensaje de enviar correo al colocar el mouse-->
+		<p>
+			Si se agrega otra etiqueta <!-- "<p></p>" --> automaticamente genera un espacio entre los parrafos		
+		</p>
+		<!--h2 es para usar un subtitulo-->
+		<h2>Subtitulo de nuestro documento</h2>
+			<p>
+			Aqui se puede escribir en negrilla usando la etiqueta b.<br/>
+			<b>Este es el ejemplo de letra en negrilla</b><br/>
+			Con strong tambien se puede colocar en negrilla pero es un marcador para google.<br/>
+			<strong>Lo marca en negrilla pero le da importancia para los motores de busqueda</strong> <br/>
+			Para agregar letra en italic se usa la etiqueta i.<br/>
+			<i>Este es el ejemplo de italic</i><br/>
+			Tambien existe blockquote que se usa para las citas 
+			<blockquote>Informa que son citas ej paginas</blockquote><br/>
+			Y para agregar el autor de la cita se usa cite<br/>
+			<cite>Nombre y apellido del autor</cite><!-- lo coloca en cursiva automaticamente-->
+			</p>
+			
+			<ul><!--Crear listas desordenadas porque nosotros podemos darle cualquier orden, listas de textos, contenidos, imagenes-->
+				<li><a href="#">Item #1</a></li><!--Es un menu de navegacion-->
+				<li>Item #2</li>
+					<ul><!--Para crear una sublista se usa nuevamente ul-->
+						<li>Item #1</li>
+						<li>Item #2</li>
+					</ul>
+				<li>Item #3</li>
+				<li>Item #4</li>
+				<li>Item #5</li>
+			</ul>
+			
+			<ol><!--Crear listas ordenadas, tienen numeracion propia, 1,2,3 etc -->
+				<li><a href="#">Item #1</a></li><!--Es un menu de navegacion, da el enlace-->
+				<li>Item #2</li>
+					<ul><!--Para crear una sublista se usa nuevamente ul-->
+						<li>Item #1</li>
+						<li>Item #2</li>
+					</ul>
+				<li>Item #3</li>
+				<li>Item #4</li>
+				<li>Item #5</li>
+			</ol>
+		<table><!--Para crear tablas-->
+			<tr><!--Para crear la fila-->
+				<td>Elemento #1</td><!--Para crear la columna-->
+				<td>Elemento #2</td>
+				<td>Elemento #3</td>
+			</tr>
+			<tr>
+				<td>Elemento #1</td>
+				<td>Elemento #2</td>
+				<td>Elemento #3</td>
+			</tr>
+			<tr>
+				<td>Elemento #1</td>
+				<td>Elemento #2</td>
+				<td>Elemento #3</td>
+			</tr>
+		</table>		
+		
+		<h3>Titulo de nuestro documento</h3>
+		<!-- br / da espacio (renglon)-->
+		<br/>
+		<h4>Titulo de nuestro documento</h4>
+		<h5>Titulo de nuestro documento</h5>
+		<h6>Titulo de nuestro documento</h6>
+		
+		
+	
+	</body>
+
+
+</html>
